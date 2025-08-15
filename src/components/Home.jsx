@@ -6,12 +6,10 @@ export default function Home() {
     <div className="home-container">
       <h1>Traffic Control Tracker</h1>
       <p>
-        This app shows real-time traffic control locations managed by police. 
-        The markers indicate where traffic checks are currently happening.
+      Cette application affiche en temps réel les lieux de contrôle routier gérés par la police. Les marqueurs indiquent où les contrôles de circulation ont actuellement lieu.
       </p>
       <p>
-        You can add new control points or remove existing ones to help keep 
-        the map updated with current information.
+      Vous pouvez ajouter de nouveaux points de contrôle ou supprimer ceux existants pour aider à maintenir la carte à jour avec des informations actuelles.
       </p>
       <Link to="/map" className="primary-button">
         View Traffic Control Map

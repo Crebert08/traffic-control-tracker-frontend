@@ -142,6 +142,7 @@ export default function Map() {
             <strong>${marker.title}</strong>
             <p>${marker.description || ''}</p>
             <p>Lat: ${marker.latitude.toFixed(4)}, Lng: ${marker.longitude.toFixed(4)}</p>
+            <p>A Traffic Control Is Happening Here</p>
             <button class="delete-marker" data-id="${marker._id}">Delete</button>
           `)
           .on('popupopen', attachDeleteHandler);
@@ -196,5 +197,9 @@ export default function Map() {
     };
   }, [deviceId]);
 
-  return <div className="map-instructions"><div id="map" style={{ height: "500px", width: "100%" }}></div></div>;
+  return (
+        <div className="map-instructions">
+            <div id="map" style={{ height: "500px", width: "100%" }}>
+            </div>
+        </div>);
 }

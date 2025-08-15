@@ -1,3 +1,8 @@
+body{
+  background-color: #607EBC;
+  color: #DFE8E6;
+}
+
 .home-container {
     max-width: 800px;
     margin: 4rem auto;
@@ -13,6 +18,7 @@
     text-decoration: none;
     font-weight: 500;
     transition: all 0.2s ease;
+    margin-top: 2.5rem;
   }
   
   .primary-button:hover {
